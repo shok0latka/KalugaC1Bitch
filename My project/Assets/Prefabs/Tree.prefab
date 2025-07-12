@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7046292274951088242}
   - component: {fileID: 2139643529108171720}
-  - component: {fileID: 3175193858760135620}
+  - component: {fileID: 1887858543555366518}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Killer
@@ -27,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 7821845515563287118}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.93, y: -3.07, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 10.6731, y: -8.3859, z: 0}
+  m_LocalScale: {x: 0.39274368, y: 0.43810213, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &3175193858760135620
+--- !u!60 &1887858543555366518
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

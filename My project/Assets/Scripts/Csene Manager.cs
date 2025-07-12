@@ -18,4 +18,9 @@ public class CseneManager : MonoBehaviour
     {
         SceneManager.LoadScene("Lose");
     }
+    
+    public void Waiting()
+    {
+        SceneManager.LoadScene("Waiting");
+    }
 }
