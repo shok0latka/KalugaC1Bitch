@@ -11,7 +11,7 @@ public class CseneManager : MonoBehaviour
     
     public void MainMenu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("New Menu");
     }
     
     public void Lose()

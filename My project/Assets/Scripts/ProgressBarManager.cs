@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ProgressBarManager : MonoBehaviour
 {
-    private float maxTime = 60.0f;
+    private float maxTime = 65.0f;
     private float time = 0.0f;
 
     [SerializeField] private Slider progressBar;
@@ -16,7 +16,7 @@ public class ProgressBarManager : MonoBehaviour
         time += Time.deltaTime;
         if (time >= maxTime)
         {
-            SceneManager.LoadScene("Win");
+            //SceneManager.LoadScene("Win");
         }
 
         progressBar.value = time / maxTime;

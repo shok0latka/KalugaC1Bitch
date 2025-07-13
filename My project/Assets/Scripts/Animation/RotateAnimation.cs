@@ -20,7 +20,8 @@ public class RotateAnimation : MonoBehaviour
         float delta = amplitude * (Mathf.Sin(Time.time * speed));
         
         var rotation = transform.rotation;
-        rotation.z = _baseRotationZ + delta; transform.rotation = rotation;
+        rotation.z = _baseRotationZ + delta; 
+        transform.rotation = rotation;
 
     }
 }
