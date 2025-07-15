@@ -29,7 +29,7 @@ public class WinningsEnd : MonoBehaviour
                 light.GameObject().SetActive(!light.GameObject().activeSelf);
             
         }
-        if (time >= 18f)
+        if (time >= 20f)
         {
             time = 0f;
             SceneManager.LoadScene("New Menu");
